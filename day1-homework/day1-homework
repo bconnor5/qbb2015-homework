@@ -1,3 +1,10 @@
 Analysis complete for SRR072893.fastq
 
 
+/Users/cmdb/qbb2015/genomes $ hisat -p 4 -x BDGP6 -U /Users/cmdb/qbb2015/rawdata/SRR072893.fastq -S answer.sam
+21892898 reads; of these:
+  21892898 (100.00%) were unpaired; of these:
+    4868452 (22.24%) aligned 0 times
+    16824102 (76.85%) aligned exactly 1 time
+    200344 (0.92%) aligned >1 times
+77.76% overall alignment rate
