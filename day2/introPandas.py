@@ -20,7 +20,7 @@ df = pd.read_table(annotation, comment='#', header=None) # df - data frame
 
 #print df [0:5]
 
-#print "\nShow rows 10 through 15 inclusive pertaining to file"
+#print "\nShow rows 10 through 15 inclusive pertaining"
 
 #print df[9:15]
 
