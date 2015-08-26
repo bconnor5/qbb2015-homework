@@ -18,7 +18,7 @@ print df[roi].shape
 roi2 = df["type"].str.contains("transcript")
 #print df2.shape
 
-df2 = df[roi]["start"][roi2]
+print df[roi][roi2]
 
 #roi = df["attributes"].str.contains("Sxl")
 #df2 = df[roi]
@@ -27,8 +27,8 @@ df2 = df[roi]["start"][roi2]
 #col = df3["start"]
 
 plt.figure()
-plt.title("Sxl Transcripts")
-plt.plot(df[roi]["start"])
+plt.title("Sxl , Transcripts")
+plt.plot(df[roi][roi2]["start"])
 plt.ylabel("Start Position")
-plt.xlabel("Sxl Transcript locus")
-plt.savefig("Sxl Trascript Loci")
+plt.xlabel("gene")
+plt.savefig("Sxl_Trascript_Loci")
