@@ -9,12 +9,13 @@ for line in f:
       if "@" in line:
             pass
       
-      elif "NM:i:0":
+      elif "NM:i:0" in line:
             
             perfect_match_count += 1
-      
+            
       else:
             pass
       
+   
 
 print "Perfect Match Count: ", perfect_match_count
