@@ -11,7 +11,7 @@ for line in f:
             if line_count <= 10:
                   Chrm = line.split()
                   
-                  print Chrm[2]
+                  print "Chromosome: ", Chrm[2]
                   line_count += 1
                   
             else:
