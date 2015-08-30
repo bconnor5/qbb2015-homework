@@ -1,0 +1,11 @@
+Chromosome:  *
+Chromosome:  3L
+Chromosome:  *
+Chromosome:  X
+Chromosome:  3L
+Chromosome:  2L
+Chromosome:  *
+Chromosome:  3R
+Chromosome:  *
+Chromosome:  2R
+Chromosome:  *
